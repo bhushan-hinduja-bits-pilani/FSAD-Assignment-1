@@ -1,0 +1,37 @@
+.book-listing {
+    padding: 20px;
+  }
+  
+  .book-listing h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-listing form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-listing form input,
+  .book-listing form label,
+  .book-listing form button {
+    flex: 1 1 45%;
+  }
+  
+  .book-listing form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-direction: column;
+  }
+  

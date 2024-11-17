@@ -1,0 +1,116 @@
+/* Signup Container */
+.signup-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading */
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  /* Signup Form */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Name Row */
+  .name-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Input Fields */
+  .signup-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input Focus Effect */
+  .signup-form input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Button */
+  .signup-form button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button Hover and Active Effects */
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-form button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .name-row {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .signup-container {
+      padding: 15px;
+    }
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+  
+  .password-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #6c7ee2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+ .btn:hover {
+    background-color: #4a5cb4;
+    transform: translateY(-2px);
+  }
+  
+.btn:active {
+    background-color: #3a4c8b;
+    transform: translateY(2px);
+  }

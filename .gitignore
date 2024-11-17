@@ -1,0 +1,52 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+package-lock.json
+
+# Editor-specific
+*.swp
+.DS_Store
+.idea
+.vscode
+
+# Logs and caches
+logs/
+*.log
+npm-cache/
+yarn-cache/
+
+# Test results
+coverage/
+test-results/
+
+# Build artifacts
+dist/
+build/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Specific to React projects
+# Build artifacts
+build/
+.next/
+.cache/
+.blitz/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Logs and caches
+logs/
+*.log
+
+# Testing frameworks
+coverage/
+test-results/
+
+.env
+

@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #6c7ee2, #8197f6);
+}
+
+/* Center the form container */
+.auth-container {
+  background-color: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px;
+  transition: all 0.3s ease;
+}
+
+/* Header Styles */
+.auth-container h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Form Input Styles */
+.auth-form .input-group {
+  margin-bottom: 1.5rem;
+}
+
+.auth-form label {
+  font-size: 0.9rem;
+  color: #333;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.auth-form input:focus {
+  border-color: #6c7ee2;
+  box-shadow: 0 0 10px rgba(108, 126, 226, 0.3);
+}
+
+/* Button Styles */
+.auth-form .btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #6c7ee2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-form .btn:hover {
+  background-color: #4a5cb4;
+  transform: translateY(-2px);
+}
+
+.auth-form .btn:active {
+  background-color: #3a4c8b;
+  transform: translateY(2px);
+}
+
+/* Links */
+.auth-container p {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.auth-container a {
+  color: #6c7ee2;
+  text-decoration: none;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+
+/* Subtle Animations */
+.auth-container {
+  animation: slideIn 0.8s ease-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .auth-container {
+    padding: 2rem;
+  }
+
+  .auth-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .auth-form .input-group input {
+    font-size: 0.95rem;
+  }
+}
